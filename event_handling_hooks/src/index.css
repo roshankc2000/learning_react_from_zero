@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(51, 43, 59);
+  width: 100%;
+}
+button {
+  width: 250px;
+  aspect-ratio: 16/5;
+  background-color: blueviolet;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 3rem;
+}
