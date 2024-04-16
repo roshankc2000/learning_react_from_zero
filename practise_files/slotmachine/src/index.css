@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e0e0e0;
+}
+
+.heading_style {
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.slot_inner {
+  text-align: center;
+  margin: 20px 0;
+  padding-top: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+}
