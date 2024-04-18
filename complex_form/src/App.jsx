@@ -9,10 +9,6 @@ const App = () => {
   });
 
   const inputEvent = (received_data) => {
-    // nextData(received_data.target.value);
-    console.log(received_data.target.value);
-    console.log(received_data.target.name);
-
     // const value = received_data.target.value;
     // const name = received_data.target.name;
 
@@ -81,9 +77,10 @@ const App = () => {
           value={data.email}
         />
         <input
-          type="phone"
+          type="tel"
           placeholder="Enter your phone number"
           name="phone"
+          pattern="[0-9]{10}"
           onChange={inputEvent}
           value={data.phone}
         />
