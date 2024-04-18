@@ -20,18 +20,21 @@ const App = () => {
           fName: value,
           lName: preValue.lName,
           email: preValue.email,
+          phone: preValue.phone,
         };
       } else if (name === "lName") {
         return {
           fName: preValue.fName,
           lName: value,
           email: preValue.email,
+          phone: preValue.phone,
         };
       } else if (name === "email") {
         return {
           fName: preValue.fName,
           lName: preValue.lName,
           email: value,
+          phone: preValue.phone,
         };
       } else if (name === "phone") {
         return {
