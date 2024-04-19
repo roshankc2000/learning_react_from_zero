@@ -71,3 +71,9 @@ button:active {
   justify-content: space-evenly;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+  .center_div {
+    width: 80%;
+  }
+}
