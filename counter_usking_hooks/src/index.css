@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: fira code;
+}
+
+.main_div {
+  width: 100%;
+  min-height: 100vh;
+  background-color: goldenrod;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.center_div {
+  width: 25%;
+  height: 60vh;
+  background-color: aliceblue;
+  box-shadow: 5px 5px 5px -3px black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-direction: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app_title {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  background-color: rgb(59, 58, 58);
+  color: white;
+  padding: 6px 0;
+  width: 100%;
+  box-shadow: 5px 5px 5px -5px black;
+}
+
+h1 {
+  color: white;
+  background-color: rgb(59, 58, 58);
+  padding: 10px 0;
+  margin: 10px 0;
+  width: 50%;
+  box-shadow: 5px 5px 5px -5px black;
+}
+
+button {
+  min-width: 30%;
+  padding: 15px 0px;
+  border: none;
+  border-radius: 4px;
+  background-color: hsl(240, 75%, 55%);
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsla(240, 75%, 55%, 0.95);
+}
+button:active {
+  background-color: hsla(240, 75%, 55%, 0.75);
+}
+
+.button_div {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
